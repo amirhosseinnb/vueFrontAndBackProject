@@ -1,18 +1,11 @@
-import basilBottle from './assets/basil-bottle.webp';
 import lemonBottle from './assets/lemon-bottle.webp';
 import garlicBottle from './assets/garlic-bottle.webp';
 import rosemaryBottle from './assets/rosemary-bottle.webp';
 import chiliBottle from './assets/chili-bottle.webp';
 import delicateBottle from './assets/delicate-bottle.webp';
 import mediumBottle from './assets/medium-bottle.webp';
-import boldBottle from './assets/bold-bottle.webp';
 
-export const products = [{
-    id: '123',
-    name: 'Basil',
-    price: '$26.00',
-    image: basilBottle,
-}, {
+export const products = [ {
     id: '234',
     name: 'Lemon',
     price: '$26.00',
@@ -42,9 +35,4 @@ export const products = [{
     name: 'Medium',
     price: '$24.50',
     imageName: mediumBottle,
-}, {
-    id: '890',
-    name: 'Bold',
-    price: '$24.50',
-    imageName: boldBottle,
 }];
